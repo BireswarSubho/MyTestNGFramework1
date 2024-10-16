@@ -1,0 +1,29 @@
+20:31:18.018 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+20:31:27.027 [main] INFO  TestCases.AccountRegistration -click on my account link
+20:31:27.027 [main] INFO  TestCases.AccountRegistration -click on register link
+20:42:54.054 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+20:42:55.055 [main] INFO  TestCases.AccountRegistration -click on my account link
+20:43:09.009 [main] INFO  TestCases.AccountRegistration -click on register link
+21:07:04.004 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+21:07:04.004 [main] INFO  TestCases.AccountRegistration -click on my account link
+21:07:05.005 [main] INFO  TestCases.AccountRegistration -click on register link
+21:08:24.024 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+21:08:25.025 [main] INFO  TestCases.AccountRegistration -click on my account link
+21:10:58.058 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+21:11:05.005 [main] INFO  TestCases.AccountRegistration -click on my account link
+21:11:06.006 [main] INFO  TestCases.AccountRegistration -click on register link
+21:16:02.002 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+21:16:10.010 [main] INFO  TestCases.AccountRegistration -click on my account link
+21:16:10.010 [main] INFO  TestCases.AccountRegistration -click on register link
+21:16:30.030 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+21:16:31.031 [main] INFO  TestCases.AccountRegistration -click on my account link
+21:17:52.052 [TestNG-tests-1] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+21:17:54.054 [TestNG-tests-2] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+21:17:55.055 [TestNG-tests-1] INFO  TestCases.AccountRegistration -click on my account link
+21:18:05.005 [TestNG-tests-2] INFO  TestCases.AccountRegistration -click on my account link
+19:08:47.047 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+19:08:56.056 [main] INFO  TestCases.AccountRegistration -click on my account link
+19:09:08.008 [main] INFO  TestCases.AccountRegistration -click on register link
+19:10:19.019 [main] INFO  TestCases.AccountRegistration -***********Starting this test case******************
+19:10:25.025 [main] INFO  TestCases.AccountRegistration -click on my account link
+19:10:25.025 [main] INFO  TestCases.AccountRegistration -click on register link
