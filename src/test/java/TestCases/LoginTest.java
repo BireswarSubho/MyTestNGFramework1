@@ -14,7 +14,7 @@ import Utilities.JavaScriptUtil;
 
 public class LoginTest extends BaseClass{
 	
-	@Test
+	@Test(groups={"Sanity","Master"})
 	public void verify_Login() throws IOException, InterruptedException {
 		logger.info("*** Starting Login test ***");
 		
@@ -31,8 +31,7 @@ public class LoginTest extends BaseClass{
 		lp.typePassword(p.getProperty("password"));
 		Thread.sleep(3000);
 		lp.clickLogin();
-		
-		//MyAccountPage
+		Thread.sleep(5000);		//MyAccountPage
 		MyAccountPage_SingleData macc= new MyAccountPage_SingleData(driver);
 		boolean targetPage=macc.isMyAccountPageExists();
 		Assert.assertEquals(targetPage, true);

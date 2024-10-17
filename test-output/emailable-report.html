@@ -9,15 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Master Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16,170</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">165,933</td><td>Master</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.Login_DDT</td><td><a href="#m0">verify_LoginDDT</a></td><td rowspan="1">1729092470496</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.AccountRegistrationTest</td><td><a href="#m0">verify_Account_registration</a></td><td rowspan="1">1729177760755</td><td rowspan="1">26222</td></tr><tr class="failedodd"><td rowspan="1">TestCases.LoginTest</td><td><a href="#m1">verify_Login</a></td><td rowspan="1">1729177678994</td><td rowspan="1">33270</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">TestCases.Login_DDT#verify_LoginDDT</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+<h2>Test</h2><h3 id="m0">TestCases.AccountRegistrationTest#verify_Account_registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]
+	at TestCases.AccountRegistrationTest.verify_Account_registration(AccountRegistrationTest.java:52)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at Utilities.DataProviders.getData(DataProviders.java:21)
-	... 25 more
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.LoginTest#verify_Login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at TestCases.LoginTest.verify_Login(LoginTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

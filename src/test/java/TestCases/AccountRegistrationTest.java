@@ -22,7 +22,7 @@ import Utilities.JavaScriptUtil;
 
 public class AccountRegistrationTest extends BaseClass {
 
-	@Test
+	@Test(groups={"Regression","Master"})
 	public void verify_Account_registration() throws InterruptedException, IOException
 	{
 		logger.info("***********Starting this test case******************");

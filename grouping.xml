@@ -2,17 +2,26 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Master Suite">
 
+<groups>
+   <run>
+  <!-- <include name="Sanity"/> -->
+  <!--   <include name="Regression"/>  --> 
+    <include name="Master"/>
+   </run>
+</groups>
+
   <listeners>
        <listener class-name="Utilities.ExtentReportUtiles"/>
   </listeners>
 
   <test thread-count="5" name="Test">
-  
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="chrome"/>
-  
     <classes>
-      <class name="TestCases.Login_DDT"/>
+      <class name="TestCases.LoginTest"/>
+      <class name="TestCases.AccountRegistrationTest"/>
     </classes>
   </test> <!-- Test -->
+  
+  
 </suite> <!-- Suite -->
